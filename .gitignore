@@ -5,7 +5,6 @@ __pycache__/
 *.log
 
 # Env
-.env
 .env.*
 
 # Node (if React/frontend is present)
