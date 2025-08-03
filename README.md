@@ -27,31 +27,6 @@ A simple Django-based web application that allows users to view, book, and manag
 - **Auth**: JWT (SimpleJWT)
 - **DevOps**: Docker, Docker Compose
 
----
-
-## 📁 Folder Structure
-
-```
-resource_booking/
-├── bookings/                
-│   ├── migrations/
-│   ├── templates/bookings/
-│   │   └── index.html
-│   ├── admin.py
-│   ├── models.py
-│   ├── serializers.py
-│   ├── tests.py
-│   └── views.py
-├── booking_system/
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-├── manage.py
-├── requirements.txt
-├── Dockerfile
-├── docker-compose.yml
-└── README.md
-```
 
 ---
 
