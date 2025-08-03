@@ -78,6 +78,24 @@ python manage.py runserver
 docker-compose up --build
 ```
 
+## ⚠️ Important for Windows Users
+
+If your app deploys but doesn't start properly, it may be due to line endings in your shell script.
+
+### Fix `entrypoint.sh` line endings:
+
+- Open `entrypoint.sh` in VS Code or another editor
+- Look at the **bottom-right corner**: if it shows `CRLF`, click it and select `LF`
+- Save the file
+- Rebuild Docker:
+
+```bash
+docker-compose down
+docker-compose build
+docker-compose up -d
+
+```
+
 2. Access:
 - Admin: http://localhost:8000/admin/
 - Frontend: http://localhost:8000/
