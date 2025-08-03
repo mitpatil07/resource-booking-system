@@ -59,8 +59,8 @@ resource_booking/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/resource-booking-system.git
-cd resource-booking-system
+git clone https://github.com/mitpatil07/resource_booking.git
+cd resource_booking
 ```
 
 2. Create a virtual environment:
