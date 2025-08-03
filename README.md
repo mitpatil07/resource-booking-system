@@ -101,7 +101,15 @@ docker-compose up -d
 - Frontend: http://localhost:8000/
 
 ---
+## 👤 Default Login Credentials
 
+### Admin (superuser)
+
+- **Username**: `admin`  
+- **Password**: `admin123`
+
+
+---
 ## 🔑 API Endpoints
 
 | Method | Endpoint             | Description                        |
